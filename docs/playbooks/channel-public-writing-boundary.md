@@ -25,8 +25,10 @@ If an internal incident must be mentioned publicly:
 - Literary technical Russian register.
 - Practical clarity over introspective narration.
 - No "thinking out loud" paragraphs.
+- Explain terms, approaches, and abbreviations in plain language for non-expert readers.
 
 ## Final pre-publish filter
 Before publish, ask:
 - "Would this sentence help a reader, or just explain my internal process?"
-If the second — remove or rewrite.
+- "Поймёт ли это читатель без внутреннего контекста команды?"
+If not — expand and rewrite.

@@ -44,6 +44,7 @@ See public writing boundary: `playbooks/channel-public-writing-boundary.md`.
 - End with CTA/question
 - Optional: one practical snippet/checklist
 - When discussing mistakes, frame as generalized pitfalls and practical safeguards (not timeline diary).
+- For articles aimed at broad audience, expand meanings of terms and avoid fragmentary shorthand sections.
 
 ## Emoji policy
 - Use emoji as amplifiers, not decoration noise
