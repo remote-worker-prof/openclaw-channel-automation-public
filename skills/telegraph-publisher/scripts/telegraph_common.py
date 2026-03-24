@@ -148,6 +148,17 @@ def markdown_to_nodes(markdown: str) -> list:
             nodes.append({"tag": "pre", "children": [{"tag": "code", "children": [code_text]}]})
             continue
 
+        # standalone markdown image: ![alt](https://...)
+        image_match = re.match(r"^!\[([^\]]*)\]\((https?://[^)\s]+)\)$", stripped)
+        if image_match:
+            alt_text = image_match.group(1).strip()
+            src = image_match.group(2).strip()
+            nodes.append({"tag": "img", "attrs": {"src": src}})
+            if alt_text:
+                nodes.append({"tag": "p", "children": [{"tag": "em", "children": [alt_text]}]})
+            i += 1
+            continue
+
         # headings (# ... ####)
         heading_match = re.match(r"^(#{1,6})\s+(.+)$", stripped)
         if heading_match:

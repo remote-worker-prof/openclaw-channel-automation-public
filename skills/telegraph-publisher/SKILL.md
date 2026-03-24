@@ -33,6 +33,7 @@ description: Create and update long-form Telegra.ph articles for Telegram conten
 - Never silently edit existing published pages.
 - Prefer concise Telegram post + Telegra.ph deep article pairing.
 - Ensure content is converted to valid Telegraph Node JSON (no raw Markdown artifacts in published text).
+- Support banner images from Markdown (`![alt](url)`), rendered as Telegraph `img` node (+ optional caption).
 - Avoid duplicate top title in Telegraph: if page title is passed via API, strip same leading heading from content nodes.
 - Remove internal operator/model/tooling narration from public article text unless strictly reader-relevant.
 - Keep incident wording temporally exact (avoid vague backdating like "one of previous releases" when issue was in current post).
