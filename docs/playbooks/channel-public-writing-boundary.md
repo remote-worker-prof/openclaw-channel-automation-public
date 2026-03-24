@@ -19,6 +19,7 @@ If an internal incident must be mentioned publicly:
 4. Keep trust, avoid drama.
 5. Preserve factual scope/time precision ("in this post" vs "in previous releases" must be exact).
 6. Prefer generalized lessons (pitfalls/nuances) over chronological incident retelling, unless explicit timeline is requested.
+7. If explicit incident detail is requested, use mandatory structure: what happened -> why happened -> how fixed -> where fixed in files/process.
 
 ## Style guardrails
 - Audience-first perspective.
