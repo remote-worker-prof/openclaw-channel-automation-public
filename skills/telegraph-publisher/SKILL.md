@@ -35,6 +35,7 @@ description: Create and update long-form Telegra.ph articles for Telegram conten
 - Ensure content is converted to valid Telegraph Node JSON (no raw Markdown artifacts in published text).
 - Remove internal operator/model/tooling narration from public article text unless strictly reader-relevant.
 - Keep incident wording temporally exact (avoid vague backdating like "one of previous releases" when issue was in current post).
+- In public long-form sections, prefer generalized pitfalls and operational nuances over post-by-post chronology unless explicitly requested.
 
 ## Output contract
 Return:

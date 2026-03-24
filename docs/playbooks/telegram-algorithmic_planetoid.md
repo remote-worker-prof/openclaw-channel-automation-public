@@ -43,6 +43,7 @@ See public writing boundary: `playbooks/channel-public-writing-boundary.md`.
 - 3–6 concise bullets instead of wall of text
 - End with CTA/question
 - Optional: one practical snippet/checklist
+- When discussing mistakes, frame as generalized pitfalls and practical safeguards (not timeline diary).
 
 ## Emoji policy
 - Use emoji as amplifiers, not decoration noise

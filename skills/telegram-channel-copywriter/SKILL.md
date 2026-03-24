@@ -56,6 +56,7 @@ description: Professional Telegram channel copywriting for @algorithmic_planetoi
 - Run anti-uncanny pass: remove robotic opener repetition, template-like transitions, and fragmented non-human pacing.
 - Run public-boundary pass: remove internal process chatter, tool/debug narration, and non-reader-facing meta commentary.
 - Run factual-scope pass: incident references must be temporally exact (this post/this release/previous release).
+- Run generalization pass: for public channel text, prioritize reusable pitfalls/nuances over timeline-style incident narration.
 
 ## Safety and publishing
 - Default mode: draft only.
