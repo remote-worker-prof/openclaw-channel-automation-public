@@ -204,6 +204,49 @@ def markdown_to_nodes(markdown: str) -> list:
     return nodes
 
 
+def _node_plain_text(node) -> str:
+    if isinstance(node, str):
+        return node
+    if isinstance(node, dict):
+        children = node.get("children", [])
+        return "".join(_node_plain_text(ch) for ch in children)
+    return ""
+
+
+def _norm_text(s: str) -> str:
+    return re.sub(r"\s+", " ", (s or "")).strip().lower()
+
+
+def strip_leading_title_duplicate(nodes: list, title: str) -> list:
+    """
+    Avoid duplicate top heading in Telegraph pages:
+    the page title is already passed via createPage/editPage title,
+    so if first content node repeats the same title, drop it.
+    """
+    if not nodes:
+        return nodes
+
+    first = nodes[0]
+    if not isinstance(first, dict):
+        return nodes
+
+    if first.get("tag") not in {"h3", "h4", "p"}:
+        return nodes
+
+    first_text = _norm_text(_node_plain_text(first))
+    title_text = _norm_text(title)
+
+    if first_text and title_text:
+        # exact match
+        if first_text == title_text:
+            return nodes[1:]
+        # near-duplicate match (one is a prefixed/extended variant of the other)
+        if first_text.startswith(title_text) or title_text.startswith(first_text):
+            return nodes[1:]
+
+    return nodes
+
+
 def nodes_payload_size(nodes: list) -> int:
     return len(json.dumps(nodes, ensure_ascii=False).encode("utf-8"))
 

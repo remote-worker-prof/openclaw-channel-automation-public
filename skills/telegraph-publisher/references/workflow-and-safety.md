@@ -29,4 +29,5 @@
 ## Formatting notes
 - Telegraph output must be Node JSON, not Markdown parse_mode.
 - Heading support in Telegraph is limited to `h3`/`h4`; map markdown heading tree accordingly.
+- If page `title` is sent via API, remove duplicate leading heading from content nodes to avoid double title rendering.
 - Inline markdown markers should be converted before publish to avoid visible artifacts (`**`, `_`, `` ` `` etc.).

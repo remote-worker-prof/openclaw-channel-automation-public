@@ -46,6 +46,7 @@ See public writing boundary: `playbooks/channel-public-writing-boundary.md`.
 - When discussing mistakes, frame as generalized pitfalls and practical safeguards (not timeline diary).
 - For articles aimed at broad audience, expand meanings of terms and avoid fragmentary shorthand sections.
 - Replace private internal naming with generic wording understandable to external readers.
+- For Telegra.ph publications, prevent duplicate title rendering (API title should not be repeated by first heading node).
 
 ## Emoji policy
 - Use emoji as amplifiers, not decoration noise

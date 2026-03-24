@@ -11,6 +11,7 @@ from telegraph_common import (
     get_access_token,
     markdown_to_nodes,
     nodes_payload_size,
+    strip_leading_title_duplicate,
     telegraph_call,
 )
 
@@ -32,6 +33,7 @@ def main() -> int:
 
     markdown = src.read_text(encoding="utf-8")
     nodes = markdown_to_nodes(markdown)
+    nodes = strip_leading_title_duplicate(nodes, args.title)
     size = nodes_payload_size(nodes)
 
     preview = {
