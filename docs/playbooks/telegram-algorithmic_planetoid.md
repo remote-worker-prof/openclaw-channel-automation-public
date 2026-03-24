@@ -7,6 +7,7 @@ Safe channel management with low blast radius:
 3) No delete/edit by default
 
 See formatting details: `playbooks/telegram-formatting-reference.md`.
+See public writing boundary: `playbooks/channel-public-writing-boundary.md`.
 
 ## Safety policy
 - Allowed by default: `sendMessage`, `sendPhoto`, `sendDocument`, `sendVideo` (new posts only)
@@ -32,7 +33,7 @@ See formatting details: `playbooks/telegram-formatting-reference.md`.
 3. Draft/approve the article
 4. Only after article approval: generate 2–3 short post drafts that reference the article
 5. User picks/edits one post draft
-6. Final preflight (length/markup/link formatting + emoji balance + heading hierarchy for article)
+6. Final preflight (length/markup/link formatting + emoji balance + heading hierarchy for article + public-boundary filter)
 7. Publish to channel
 8. Save article URL + message ID to memory/daily note
 

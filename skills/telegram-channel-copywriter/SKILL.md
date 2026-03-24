@@ -12,6 +12,7 @@ description: Professional Telegram channel copywriting for @algorithmic_planetoi
 - Read `references/post-templates.md` for reusable post structures.
 - Read `references/narrative-track.md` for reader-journey sequencing.
 - Read `/home/sorcerer/.openclaw/workspace/playbooks/telegram-formatting-reference.md` for HTML-safe posting format.
+- Read `/home/sorcerer/.openclaw/workspace/playbooks/channel-public-writing-boundary.md` before finalizing public text.
 
 ## Optional companion skills (if installed)
 - `copywriter`: use for microcopy tightening (headlines, CTAs, brevity polish).
@@ -53,6 +54,7 @@ description: Professional Telegram channel copywriting for @algorithmic_planetoi
 - Match channel tone: technical, practical, slightly ironic, no fluff.
 - Apply emoji carefully but virally: usually 1-3, only at semantic stress points (hook/contrast/CTA).
 - Run anti-uncanny pass: remove robotic opener repetition, template-like transitions, and fragmented non-human pacing.
+- Run public-boundary pass: remove internal process chatter, tool/debug narration, and non-reader-facing meta commentary.
 
 ## Safety and publishing
 - Default mode: draft only.

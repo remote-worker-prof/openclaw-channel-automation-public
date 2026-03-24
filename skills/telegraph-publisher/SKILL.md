@@ -10,6 +10,7 @@ description: Create and update long-form Telegra.ph articles for Telegram conten
 - Read `references/workflow-and-safety.md` for publication policy.
 - Read `references/article-structure.md` for long-form layout templates.
 - Read `/home/sorcerer/.openclaw/workspace/plans/telegraph-python-automation-roadmap.md` for current automation scope and extension plan.
+- Read `/home/sorcerer/.openclaw/workspace/playbooks/channel-public-writing-boundary.md` for public editorial limits.
 - Use classical Russian IT blog style (neutral, literate, technically precise).
 
 ## Core flow
@@ -32,6 +33,7 @@ description: Create and update long-form Telegra.ph articles for Telegram conten
 - Never silently edit existing published pages.
 - Prefer concise Telegram post + Telegra.ph deep article pairing.
 - Ensure content is converted to valid Telegraph Node JSON (no raw Markdown artifacts in published text).
+- Remove internal operator/model/tooling narration from public article text unless strictly reader-relevant.
 
 ## Output contract
 Return:
