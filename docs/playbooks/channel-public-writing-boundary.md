@@ -17,6 +17,7 @@ If an internal incident must be mentioned publicly:
 2. State concise fix in neutral editorial language.
 3. Avoid operator-log tone.
 4. Keep trust, avoid drama.
+5. Preserve factual scope/time precision ("in this post" vs "in previous releases" must be exact).
 
 ## Style guardrails
 - Audience-first perspective.

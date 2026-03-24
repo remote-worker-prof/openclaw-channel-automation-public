@@ -55,6 +55,7 @@ description: Professional Telegram channel copywriting for @algorithmic_planetoi
 - Apply emoji carefully but virally: usually 1-3, only at semantic stress points (hook/contrast/CTA).
 - Run anti-uncanny pass: remove robotic opener repetition, template-like transitions, and fragmented non-human pacing.
 - Run public-boundary pass: remove internal process chatter, tool/debug narration, and non-reader-facing meta commentary.
+- Run factual-scope pass: incident references must be temporally exact (this post/this release/previous release).
 
 ## Safety and publishing
 - Default mode: draft only.
