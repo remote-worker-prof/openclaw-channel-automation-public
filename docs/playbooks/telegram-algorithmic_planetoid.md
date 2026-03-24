@@ -74,3 +74,8 @@ If API returns errors / permissions denied:
   - `article.md`
   - `post.html` (or `post.txt`)
   - `post-meta.md` (URLs, message_id, status)
+
+## Duplicate prevention (mandatory)
+- Before publishing a new post, check the publication folder `post-meta.md` for the same `article_url` on the same day.
+- If a post for that article already exists, do NOT publish a second similar post unless Mark explicitly asks for an update/repost.
+- If repost/update is requested, prefer editing the existing post; if editing is unavailable, publish one replacement and delete the older duplicate.

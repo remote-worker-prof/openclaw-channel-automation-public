@@ -30,7 +30,8 @@ description: Professional Telegram channel copywriting for @algorithmic_planetoi
 6. Keep one core idea per post; remove extra branches.
 7. Optimize for scanning: short paragraphs, bullets, concrete language.
 8. Add one clear CTA (question, action, or link intent).
-9. Run quality check before publish.
+9. Run duplicate-check against same-day publication metadata (same article URL).
+10. Run quality check before publish.
 
 ## Output contract
 - Return:
@@ -42,6 +43,7 @@ description: Professional Telegram channel copywriting for @algorithmic_planetoi
 - Primary output: Telegram-compatible HTML text (safe tag subset).
 - Also provide plain-text fallback when requested.
 - Avoid noisy emoji spam.
+- If duplicate risk is detected (same article already posted recently), return `DUPLICATE_ALERT` and wait for explicit publish/repost command.
 
 ## Quality checklist
 - Start with a strong hook in first 1-2 lines.
