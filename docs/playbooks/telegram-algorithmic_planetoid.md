@@ -45,6 +45,7 @@ See public writing boundary: `playbooks/channel-public-writing-boundary.md`.
 - Optional: one practical snippet/checklist
 - When discussing mistakes, frame as generalized pitfalls and practical safeguards (not timeline diary).
 - For articles aimed at broad audience, expand meanings of terms and avoid fragmentary shorthand sections.
+- Replace private internal naming with generic wording understandable to external readers.
 
 ## Emoji policy
 - Use emoji as amplifiers, not decoration noise

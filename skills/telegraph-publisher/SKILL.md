@@ -37,6 +37,7 @@ description: Create and update long-form Telegra.ph articles for Telegram conten
 - Keep incident wording temporally exact (avoid vague backdating like "one of previous releases" when issue was in current post).
 - In public long-form sections, prefer generalized pitfalls and operational nuances over post-by-post chronology unless explicitly requested.
 - Expand meanings of terms and methods for broad audiences; avoid telegraphic shorthand.
+- Generalize private/internal naming (e.g., personal project labels) into public-understandable terms unless naming is essential.
 
 ## Output contract
 Return:

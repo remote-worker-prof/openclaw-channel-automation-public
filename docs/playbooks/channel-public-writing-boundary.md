@@ -26,6 +26,7 @@ If an internal incident must be mentioned publicly:
 - Practical clarity over introspective narration.
 - No "thinking out loud" paragraphs.
 - Explain terms, approaches, and abbreviations in plain language for non-expert readers.
+- Replace private/internal project names with generic public terms unless the brand name itself is essential.
 
 ## Final pre-publish filter
 Before publish, ask:

@@ -58,6 +58,7 @@ description: Professional Telegram channel copywriting for @algorithmic_planetoi
 - Run factual-scope pass: incident references must be temporally exact (this post/this release/previous release).
 - Run generalization pass: for public channel text, prioritize reusable pitfalls/nuances over timeline-style incident narration.
 - Run explainability pass: unpack key terms and approaches so a non-specialist reader can follow the argument.
+- Run naming pass: replace private internal labels with generic public wording unless explicit naming is required.
 
 ## Safety and publishing
 - Default mode: draft only.
